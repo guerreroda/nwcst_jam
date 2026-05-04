@@ -16,6 +16,7 @@
 
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s1_env_check.ipynb" target="_blank">Notebook 1: Environment Check</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s2_basic.ipynb" target="_blank">Notebook 2: Basic Python</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s2_R.R" target="_blank">R File 1: Intro to R</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3a_data_download.ipynb" target="_blank">Notebook 3: Data Download</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3b_gtrends.ipynb" target="_blank">Notebook 4: Google Trends</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3c_ntl.ipynb" target="_blank">Notebook 5: NTL in-house</a>
