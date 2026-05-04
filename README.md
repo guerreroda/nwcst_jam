@@ -18,6 +18,6 @@
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s2_basic.ipynb" target="_blank">Notebook 2: Basic Python</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3a_data_download.ipynb" target="_blank">Notebook 3: Data Download</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3b_gtrends.ipynb" target="_blank">Notebook 4: Google Trends</a>
-- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3c_blackmarble.ipynb" target="_blank">Notebook 5: NTL Black Marble _(Troubleshooting)_ </a>
-- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3c_ntl.ipynb" target="_blank">Notebook 6: NTL in-house</a>
-- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3d_build.ipynb" target="_blank">Notebook 7: Building the dataset</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3c_ntl.ipynb" target="_blank">Notebook 5: NTL in-house</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3d_blackmarble.ipynb" target="_blank">Notebook 6: NTL Black Marble _(Troubleshooting)_ </a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3e_build.ipynb" target="_blank">Notebook 7: Building the dataset</a>
