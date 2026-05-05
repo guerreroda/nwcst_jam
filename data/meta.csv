@@ -1,6 +1,6 @@
 series,ticket,description,description 2,freq,first_date,last_date,No Obs,months_lag,nominal,sa,unstructured,type,agg_method,file_name
-gdp,RGDP0000,"Gross Domestic Product, Constant Prices and Seasonally Adjusted",,QE,3/1/2015,12/1/2025,44,4,0,1,0,R,last,boj_gdp.csv
-blk_ntl,UMBL0000,Black Marble Night Time Lights (Monthly),,MS,1/1/2012,12/1/2025,168,0,0,0,1,U,sum,blk_ntl.csv
+gdp,RGDP0000,"Gross Domestic Product, Constant Prices and Seasonally Adjusted",,QE,3/1/2015,12/1/2025,44,5,0,1,0,R,last,boj_gdp.csv
+blk_ntl,UMBL0000,Black Marble Night Time Lights (Monthly),,MS,1/1/2012,12/1/2025,168,5,0,0,1,U,sum,blk_ntl.csv
 bank_liabilities_cheques_in_course_of_payment,MLIA0001,Cheques in clearing not yet settled,,MS,1/1/1991,11/1/2025,419,6,,0,0,M,mean,boj_bank_liabilities.csv
 bank_liabilities_deposits_central_gvt,MLIA1001,Central government deposits held by banks,,MS,1/1/1991,11/1/2025,419,6,,0,0,M,mean,boj_bank_liabilities.csv
 bank_liabilities_deposits_demand,MLIA1002,Deposits withdrawable on demand,,MS,1/1/1991,11/1/2025,419,6,,0,0,M,mean,boj_bank_liabilities.csv
@@ -547,7 +547,7 @@ JAM_CGO_RGG_XDC,FCGE1100,CGO: Expenditure - Recurrent Expenditure - Programmes,C
 JAM_CGO_RGNR_XDC,FCGB1000,CGO: Primary Balance (Surplus + / Deficit -),Central Government Operations (CGO),MS,4/1/2013,2/1/2025,134,15,1,0,0,F,mean,boj_cengov.csv
 JAM_CGO_RG_XDC,FCGB2000,CGO: Fiscal Balance (Surplus + / Deficit -),Central Government Operations (CGO),MS,4/1/2013,2/1/2025,134,15,1,0,0,F,mean,boj_cengov.csv
 JAM_CG_FBSOOBOJREC_XDC,FCGF4000,CGO: Other Outflows,Central Government Operations (CGO),MS,3/1/2018,2/1/2025,84,15,1,0,0,F,mean,boj_cengov.csv
-cpi,RCPI0000,Consumer Price Index (All Items),,MS,4/1/2020,3/1/2026,72,2,0,0,0,R,mean,boj_cpi.csv
+cpi,RCPI0000,Consumer Price Index (All Items),,MS,5/1/1999,3/1/2026,323,2,0,0,0,R,mean,boj_cpi.csv
 FDSAD_XDC,MDEP0001,Depository Corporations: Domestic Claims (JMD Millions),,MS,1/1/2010,3/1/2026,195,2,1,0,0,M,mean,boj_dcs.csv
 FDSB_XDC,MDEP0002,Depository Corporations: Broad Money Liabilities (JMD Millions),,MS,1/1/2010,3/1/2026,195,2,1,0,0,M,mean,boj_dcs.csv
 FDSF_XDC,MDEP0003,Depository Corporations: Net Foreign Assets (JMD Millions),,MS,1/1/2010,3/1/2026,195,2,1,0,0,M,mean,boj_dcs.csv
@@ -937,26 +937,26 @@ exports_can,XEMP0001,Exports Canada,,MS,1/1/2007,10/1/2025,226,7,0,0,0,X,sum,can
 imports_can,XIMP0001,Imports Canada,,MS,1/1/2007,10/1/2025,226,7,0,0,0,X,sum,canada_imports.csv
 exp_main,XEMP0000,Exports Main Partners,,MS,1/1/1985,11/1/2025,491,6,0,0,0,X,sum,composite XEXP
 imp_main,XIMP0000,Imports Main Partners,,MS,1/1/1985,11/1/2025,491,6,0,0,0,X,sum,composite XIMP
-ntl_airport_mean,UNTL10001,Daily Night Time Lights: Airports,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_airport_meanw30,UNTL30001,Daily Night Time Lights: Airports 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_consumption_mean,UNTL10002,Daily Night Time Lights: Consumption Establishments,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_consumption_meanw30,UNTL30002,Daily Night Time Lights: Consumption Establishments 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_cultural_mean,UNTL10003,Daily Night Time Lights: Cultural Locations,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_cultural_meanw30,UNTL30003,Daily Night Time Lights: Cultural Locations 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_distillery_mean,UNTL10004,Daily Night Time Lights: Distilleries,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_distillery_meanw30,UNTL30004,Daily Night Time Lights: Distilleries 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_hotel_mean,UNTL10005,Daily Night Time Lights: Hotels,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_hotel_meanw30,UNTL30005,Daily Night Time Lights: Hotels 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_industrial_mean,UNTL10006,Daily Night Time Lights: Manufacture,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_industrial_meanw30,UNTL30006,Daily Night Time Lights: Manufacture 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_mean,UNTL10000,Daily Night Time Lights,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_airport_mean,UNTL1001,Daily Night Time Lights: Airports,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_airport_meanw30,UNTL3001,Daily Night Time Lights: Airports 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_consumption_mean,UNTL1002,Daily Night Time Lights: Consumption Establishments,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_consumption_meanw30,UNTL3002,Daily Night Time Lights: Consumption Establishments 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_cultural_mean,UNTL1003,Daily Night Time Lights: Cultural Locations,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_cultural_meanw30,UNTL3003,Daily Night Time Lights: Cultural Locations 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_distillery_mean,UNTL1004,Daily Night Time Lights: Distilleries,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_distillery_meanw30,UNTL3004,Daily Night Time Lights: Distilleries 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_hotel_mean,UNTL1005,Daily Night Time Lights: Hotels,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_hotel_meanw30,UNTL3005,Daily Night Time Lights: Hotels 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_industrial_mean,UNTL1006,Daily Night Time Lights: Manufacture,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_industrial_meanw30,UNTL3006,Daily Night Time Lights: Manufacture 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_mean,UNTL1000,Daily Night Time Lights,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
 ntl_mean_shp,UNTL0000,Daily Night Time Lights,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_meanw30,UNTL30000,Daily Night Time Lights 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_port_mean,UNTL10007,Daily Night Time Lights: Ports,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_port_meanw30,UNTL30007,Daily Night Time Lights: Ports 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_supermarket_mean,UNTL10008,Daily Night Time Lights: Supermarkets,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_supermarket_meanw30,UNTL30008,Daily Night Time Lights: Supermarkets 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
-ntl_sum,,,,MS,1/1/2012,4/1/2026,166,1,,,,,,data_ntl_shape.csv
+ntl_meanw30,UNTL3000,Daily Night Time Lights 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_port_mean,UNTL1007,Daily Night Time Lights: Ports,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_port_meanw30,UNTL3007,Daily Night Time Lights: Ports 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_supermarket_mean,UNTL1008,Daily Night Time Lights: Supermarkets,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_supermarket_meanw30,UNTL3008,Daily Night Time Lights: Supermarkets 3-month moving avg,,MS,1/1/2012,4/1/2026,166,1,0,0,1,U,sum,data_ntl.csv
+ntl_sum,UNTL0001,Daily Night Time Lights: Sum of Island Shape,,MS,1/1/2012,4/1/2026,166,1,,,,,,data_ntl_shape.csv
 brent price,XOIL0000,Brent Oil Price,,MS,5/1/1987,4/1/2026,468,1,0,0,0,X,mean,eia_brent.csv
 exp_eu,XEMP0002,Exports EU,,MS,1/1/1988,1/1/2026,457,4,0,0,0,X,sum,eu_trade.csv
 imp_eu,XIMP0002,Imports EU,,MS,1/1/1988,1/1/2026,457,4,0,0,0,X,sum,eu_trade.csv
@@ -966,50 +966,51 @@ fred_DJIA,XFED0003,DowJones Stock,,MS,4/1/2016,4/1/2026,121,1,0,0,0,X,mean,fred_
 fred_EXCAUS,XFED0004,Exchange Rate Canada-US,,MS,1/1/1971,3/1/2026,663,2,0,0,0,X,mean,fred_data.csv
 fred_NASDAQCOM,XFED0005,Nasdaq Stock,,MS,2/1/1971,4/1/2026,663,1,0,0,0,X,mean,fred_data.csv
 fred_SP500,XFED0006,SP500 Stock,,MS,4/1/2016,4/1/2026,121,1,0,0,0,X,mean,fred_data.csv
-gtrends_airbnb_jamaica_worldwide,UGTR0001,Google Trends: Airbnb (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_amazon_jamaica,UGTR0002,Google Trends: Amazon (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_apple_jamaica,UGTR0003,Google Trends: Apple (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_blue_mountains_jamaica,UGTR0004,Google Trends: Blue Mountains (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_bob_marley_museum_jamaica,UGTR0005,Google Trends: Bob Marley Museum (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_burger_king_jamaica,UGTR0006,Google Trends: Burger King (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_caribbeanjobs_com_jamaica,UGTR0007,Google Trends: Caribbean Jobs (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_citi_jamaica,UGTR0008,Google Trends: Citi (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_crave_jamaica,UGTR0009,Google Trends: Crave (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_credit_cards_jamaica,UGTR0010,Google Trends: Credit Cards (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_doordash_jamaica,UGTR0011,Google Trends: Doordash (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_flights_kingston_worldwide,UGTR0012,Google Trends: Flights Kingston (W),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_honda_jamaica,UGTR0013,Google Trends: Honda (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_hotels_kingston_worldwide,UGTR0014,Google Trends: Hotels Kingston (W),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_island_grill_jamaica,UGTR0015,Google Trends: Island Grill (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_jacars_net_jamaica,UGTR0016,Google Trends: Jacars.net (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_jamaica_flights_jamaica,UGTR0017,Google Trends: Jamaica Flights (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_jamaica_flights_worldwide,UGTR0018,Google Trends: Jamaica Flights (W),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_jmmb_jamaica,UGTR0019,Google Trends: JMMB (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_jn_bank_jamaica,UGTR0020,Google Trends: JN Bank (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_kfc_jamaica,UGTR0021,Google Trends: KFC (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_linkedin_jamaica,UGTR0022,Google Trends: Linkedin (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_macy_s_jamaica,UGTR0023,Google Trends: Macy's (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_maxie_jamaica,UGTR0024,Google Trends: Maxie (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_mean,UGTR0000,Google Trends Mean,,MS,2/1/2000,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_montego_bay_jamaica,UGTR0025,Google Trends: Montego Bay (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_montego_bay_resorts_jamaica_worldwide,UGTR0026,Google Trends: Montego Bay Resorts Jamaica (W),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_ncb_jamaica,UGTR0027,Google Trends: NCB (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_ocho_rios_jamaica,UGTR0028,Google Trends: Ocho Rios (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_pizza_hut_jamaica,UGTR0029,Google Trends: Pizza Hut (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_pricesmart_jamaica,UGTR0030,Google Trends: Price Smart (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_restaurants_jamaica,UGTR0031,Google Trends: Restaurants (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_sagicor_jamaica,UGTR0032,Google Trends: Sagicor (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_samsung_jamaica,UGTR0033,Google Trends: Samsung (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_scotiabank_jamaica,UGTR0034,Google Trends: ScotiaBank (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_shein_jamaica,UGTR0035,Google Trends: Shein (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_shoppers_fair_jamaica,UGTR0036,Google Trends: Shoppers Fair (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_toyota_jamaica,UGTR0037,Google Trends: Toyota (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_toyota_jamaica_jamaica,UGTR0038,Google Trends: Toyota Jamaica (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_treasure_beach_jamaica,UGTR0039,Google Trends: Treasure Beach (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
-gtrends_uber_eats_jamaica,UGTR0040,Google Trends: Uber Eats (JM),,MS,1/1/2004,1/1/2026,265,1,0,0,1,U,mean,gtrends.csv
+gtrends_airbnb_jamaica_worldwide,UGTR0001,Google Trends: Airbnb (JM),,MS,1/1/2010,4/1/2026,159,1,0,0,1,U,mean,gtrends.csv
+gtrends_amazon_jm,UGTR0002,Google Trends: Amazon (JM),,MS,1/1/2005,4/1/2026,253,1,0,0,1,U,mean,gtrends.csv
+gtrends_apple_jm,UGTR0003,Google Trends: Apple (JM),,MS,6/1/2004,4/1/2026,251,1,0,0,1,U,mean,gtrends.csv
+gtrends_blue_mountains_jm,UGTR0004,Google Trends: Blue Mountains (JM),,MS,12/1/2008,4/1/2026,138,1,0,0,1,U,mean,gtrends.csv
+gtrends_bob_marley_museum_jm,UGTR0005,Google Trends: Bob Marley Museum (JM),,MS,5/1/2007,4/1/2026,156,1,0,0,1,U,mean,gtrends.csv
+gtrends_burger_king_jm,UGTR0006,Google Trends: Burger King (JM),,MS,2/1/2010,4/1/2026,184,1,0,0,1,U,mean,gtrends.csv
+gtrends_caribbeanjobs_com_jm,UGTR0007,Google Trends: Caribbean Jobs (JM),,MS,9/1/2004,4/1/2026,177,1,0,0,1,U,mean,gtrends.csv
+gtrends_citi_jamaica,UGTR0008,Google Trends: Citi (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_crave_jm,UGTR0009,Google Trends: Crave (JM),,MS,4/1/2013,4/1/2026,114,1,0,0,1,U,mean,gtrends.csv
+gtrends_credit_cards_jm,UGTR0010,Google Trends: Credit Cards (JM),,MS,3/1/2008,4/1/2026,174,1,0,0,1,U,mean,gtrends.csv
+gtrends_doordash_jm,UGTR0011,Google Trends: Doordash (JM),,MS,12/1/2020,4/1/2026,43,1,0,0,1,U,mean,gtrends.csv
+gtrends_flights_kingston_worldwide,UGTR0012,Google Trends: Flights Kingston (W),,MS,2/1/2004,4/1/2026,259,1,0,0,1,U,mean,gtrends.csv
+gtrends_flights_miami_jm,UGTR0041,Google Trends: Miami (JM),,MS,3/1/2010,4/1/2026,139,1,0,0,1,U,mean,gtrends.csv
+gtrends_honda_jm,UGTR0013,Google Trends: Honda (JM),,MS,1/1/2004,4/1/2026,268,1,0,0,1,U,mean,gtrends.csv
+gtrends_hotels_kingston_worldwide,UGTR0014,Google Trends: Hotels Kingston (W),,MS,1/1/2004,4/1/2026,268,1,0,0,1,U,mean,gtrends.csv
+gtrends_island_grill_jamaica,UGTR0015,Google Trends: Island Grill (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_jacars_net_jm,UGTR0016,Google Trends: Jacars.net (JM),,MS,5/1/2012,4/1/2026,166,1,0,0,1,U,mean,gtrends.csv
+gtrends_jamaica_flights_jamaica,UGTR0017,Google Trends: Jamaica Flights (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_jamaica_flights_worldwide,UGTR0018,Google Trends: Jamaica Flights (W),,MS,1/1/2004,4/1/2026,268,1,0,0,1,U,mean,gtrends.csv
+gtrends_jmmb_jm,UGTR0019,Google Trends: JMMB (JM),,MS,5/1/2005,4/1/2026,244,1,0,0,1,U,mean,gtrends.csv
+gtrends_jn_bank_jm,UGTR0020,Google Trends: JN Bank (JM),,MS,9/1/2011,4/1/2026,148,1,0,0,1,U,mean,gtrends.csv
+gtrends_kfc_jamaica,UGTR0021,Google Trends: KFC (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_linkedin_jm,UGTR0022,Google Trends: Linkedin (JM),,MS,11/1/2009,4/1/2026,187,1,0,0,1,U,mean,gtrends.csv
+gtrends_macy_s_jm,UGTR0023,Google Trends: Macy's (JM),,MS,1/1/2016,4/1/2026,124,1,0,0,1,U,mean,gtrends.csv
+gtrends_maxie_jm,UGTR0024,Google Trends: Maxie (JM),,MS,7/1/2011,4/1/2026,144,1,0,0,1,U,mean,gtrends.csv
+gtrends_montego_bay_jm,UGTR0025,Google Trends: Montego Bay (JM),,MS,7/1/2004,4/1/2026,256,1,0,0,1,U,mean,gtrends.csv
+gtrends_montego_bay_resorts_worldwide,UGTR0026,Google Trends: Montego Bay Resorts Jamaica (W),,MS,1/1/2004,4/1/2026,259,1,0,0,1,U,mean,gtrends.csv
+gtrends_ncb_jm,UGTR0027,Google Trends: NCB (JM),,MS,8/1/2004,4/1/2026,253,1,0,0,1,U,mean,gtrends.csv
+gtrends_ocho_rios_jm,UGTR0028,Google Trends: Ocho Rios (JM),,MS,4/1/2004,4/1/2026,248,1,0,0,1,U,mean,gtrends.csv
+gtrends_pizza_hut_jm,UGTR0029,Google Trends: Pizza Hut (JM),,MS,8/1/2007,4/1/2026,194,1,0,0,1,U,mean,gtrends.csv
+gtrends_pricesmart_jm,UGTR0030,Google Trends: Price Smart (JM),,MS,12/1/2009,4/1/2026,193,1,0,0,1,U,mean,gtrends.csv
+gtrends_restaurants_jm,UGTR0031,Google Trends: Restaurants (JM),,MS,11/1/2006,4/1/2026,220,1,0,0,1,U,mean,gtrends.csv
+gtrends_sagicor_jamaica,UGTR0032,Google Trends: Sagicor (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_samsung_jamaica,UGTR0033,Google Trends: Samsung (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_scotiabank_jamaica,UGTR0034,Google Trends: ScotiaBank (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_shein_jm,UGTR0035,Google Trends: Shein (JM),,MS,8/1/2016,4/1/2026,114,1,0,0,1,U,mean,gtrends.csv
+gtrends_shoppers_fair_jamaica,UGTR0036,Google Trends: Shoppers Fair (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
+gtrends_toyota_jamaica_jm,UGTR0038,Google Trends: Toyota Jamaica (JM),,MS,3/1/2006,4/1/2026,232,1,0,0,1,U,mean,gtrends.csv
+gtrends_toyota_jm,UGTR0037,Google Trends: Toyota (JM),,MS,1/1/2004,4/1/2026,268,1,0,0,1,U,mean,gtrends.csv
+gtrends_treasure_beach_jm,UGTR0039,Google Trends: Treasure Beach (JM),,MS,3/1/2008,4/1/2026,187,1,0,0,1,U,mean,gtrends.csv
+gtrends_uber_eats_jamaica,UGTR0040,Google Trends: Uber Eats (JM),,MS,1/1/2004,1/1/2026,265,4,0,0,1,U,mean,gtrends.csv
 jse_index,REXC0001,Jamaica Exchange Index,,MS,4/1/2021,4/1/2026,61,1,0,0,0,R,mean,jamstockex_jse.csv
 jse_volume,REXC0002,Jamaica Exchange Volume,,MS,4/1/2021,4/1/2026,61,1,0,0,0,R,sum,jamstockex_jse.csv
 exp_uk,XEMP0003,Exports UK,,MS,1/1/2018,12/1/2025,96,5,0,0,0,X,sum,uk_trade.csv
 imp_uk,XIMP0003,Imports UK,,MS,1/1/2018,12/1/2025,96,5,0,0,0,X,sum,uk_trade.csv
 USA_exp_JM,XEMP0004,Exports USA,,MS,1/1/1985,2/1/2026,494,3,0,0,0,X,sum,uscensus_trade.csv
 USA_imp_JM,XIMP0004,Imports USA,,MS,1/1/1985,2/1/2026,494,3,0,0,0,X,sum,uscensus_trade.csv
+gtrends_mean,UGTR0000,Google Trends Mean,,MS,1/1/2004,4/1/2026,268,1,0,0,1,U,mean,gtrends.csv
