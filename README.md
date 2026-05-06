@@ -9,6 +9,9 @@
 - <a href="https://guerreroda.github.io/nwcst_jam/slides/session_1.html" target="_blank">Session 1 – Installation and Environment</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/slides/session_2.html" target="_blank">Session 2 – Basics of Python</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/slides/session_3.html" target="_blank">Session 3 – Data</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/slides/s4_regularization.pdf" target="_blank">Session 4 – Regularization</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/slides/s4_tree_models.pdf" target="_blank">Session 4 – Tree Based Models</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/slides/s4_lstm.pdf" target="_blank">Session 4 – Long Term Short Memory</a>
 
 **Activities**
 
