@@ -37,6 +37,7 @@
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s2_basic.html" target="_blank">Sols: Basic Python</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s3a_data_download.html" target="_blank">Sols: Data Scraping</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s3b_gtrends.html" target="_blank">Sols: Google Trends</a>
+- <a href="https://guerreroda.github.io/nwcst_jam/solutions/s3c_ntl.html" target="_blank">Sols: NightTime Lights</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s5_Selection.html" target="_blank">Sols: Variable Selection and Basic Nowcast</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s6_nwcst.html" target="_blank">Sols: Nowcasting</a>
 - <a href="https://guerreroda.github.io/nwcst_jam/solutions/s7_results.html" target="_blank">Sols: Output Visualization</a>
