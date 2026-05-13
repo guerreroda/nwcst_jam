@@ -25,3 +25,19 @@
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3c_ntl.ipynb" target="_blank">Notebook 5: NTL in-house</a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3d_blackmarble.ipynb" target="_blank">Notebook 6: NTL Black Marble _(Troubleshooting)_ </a>
 - <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s3e_build.ipynb" target="_blank">Notebook 7: Building the dataset</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s5_Selection.ipynb" target="_blank">Notebook 8: Selection and Estimation</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s5_Selection.ipynb" target="_blank">Notebook 9: Full Nowcast</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s6_nwcst.ipynb" target="_blank">Notebook 9: Full Nowcast</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s7_models.ipynb" target="_blank">Notebook 10: Models</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/activity/s7_results.ipynb" target="_blank">Notebook 11: Output Visualization</a>
+
+
+**Solutions**
+
+- <a href="https://guerreroda.github.io/nwcst_jam/solutions/s2_basic.html" target="_blank">Sols: Basic Python</a>
+- <a href="https://guerreroda.github.io/nwcst_jam/solutions/s3a_data_download.html" target="_blank">Sols: Data Scraping</a>
+- <a href="https://guerreroda.github.io/nwcst_jam/solutions/s3b_gtrends.html" target="_blank">Sols: Google Trends</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/solutions/s5_Selection.html" target="_blank">Sols: Variable Selection and Basic Nowcast</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/solutions/s6_nwcst.html" target="_blank">Sols: Nowcasting</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/solutions/s7_results.html" target="_blank">Sols: Output Visualization</a>
+- <a href="https://github.com/guerreroda/nwcst_jam/blob/main/solutions/s7_models.html" target="_blank">Sols: Models</a>
